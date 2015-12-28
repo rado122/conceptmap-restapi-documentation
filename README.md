@@ -44,13 +44,13 @@
 ###<a id="create"></a>Create a Map
 
 |Request Method|Request Endpoint|
-|-------------------------------|
+|--------------|----------------|
 |POST          | /maps          |
 
 
 ####Request Parameters
 |Parameter|Description     |
-|---------------------     |
+|---------|-----------     |
 |title    |Title of the map|  
 
 ####Request Example:
@@ -87,7 +87,7 @@ Content-Type:application/json;charset=UTF-8
 ###<a id="retrieve"></a>Retrieve a Map
 
 |Request Method|Request Endpoint|
-|-------------------------------|
+|--------------|----------------|
 |GET           | /maps/{map_id} |
 
 
@@ -131,13 +131,13 @@ Content-Type:application/json;charset=UTF-8
 ###<a id="update"></a>Update a Map
 
 |Request Method|Request Endpoint|
-|-------------------------------|
+|--------------|----------------|
 |PUT           | /maps/{map_id} |
 
 
 ####Request Parameters
 |Parameter|Description                     |
-|---------------------                     |
+|---------|-----------                     |
 |title    |Title of the map                |  
 |concepts |List of concept objects         |
 |relationships|List of relationship objects|
@@ -205,7 +205,7 @@ Content-Type:application/json;charset=UTF-8
 ###<a id="delete"></a>Delete a Map
 
 |Request Method|Request Endpoint|
-|-------------------------------|
+|--------------|----------------|
 |DELETE        | /maps/{map_id} |
 
 
@@ -238,7 +238,7 @@ Content-Type:application/json;charset=UTF-8
 ###<a id="list"></a>List of all Maps
 
 |Request Method|Request Endpoint|
-|-------------------------------|
+|--------------|----------------|
 |GET           | /maps          |
 
 
