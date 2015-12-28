@@ -75,7 +75,7 @@ Content-Type:application/json;charset=UTF-8
   "message":"The map has been created",
   "map":
   {
-    "title": "What is Cmap",
+    "title": "My Map",
     "id": 1,
     "concepts": [],
     "relationships": []
